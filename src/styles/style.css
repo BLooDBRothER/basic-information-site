@@ -159,6 +159,26 @@ h1{
     fill: var(--accent);
 }
 
+/* -------------------- contact seciont ------------------ */
+.connect-links{
+    display: flex;
+    align-items: center;
+}
+
+.connect-link{
+    margin: 10rem 2rem;
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+    border: 1px solid var(--accent);
+    color: var(--seondary);
+}
+
+.connect-link:hover{
+    border: 1px dashed var(--seondary);
+    color: var(--accent);
+    transition: all .3s ease;
+}
+
 .highlight{
     color: var(--accent);
     font-weight: bold;
