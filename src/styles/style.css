@@ -110,6 +110,55 @@ h1{
     }    
 }
 
+/* -------------------- About seciont ------------------ */
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img{
+    width: 40%;
+    height: auto;
+    margin: 2rem auto;
+}
+
+.content{
+    font-size: 1.3rem;
+    width: 60%;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 2px solid var(--accent);
+    border-right: 2px solid var(--accent);
+    border-radius: 1rem;
+    line-height: 1.6rem;
+}
+
+.home{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.home svg{
+    width: 40px;
+    height: 40px;
+    fill: var(--seondary);
+    cursor: pointer;
+}
+
+.home svg:hover{
+    fill: var(--accent);
+}
+
 .highlight{
     color: var(--accent);
     font-weight: bold;
